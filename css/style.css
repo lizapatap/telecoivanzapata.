@@ -1,0 +1,104 @@
+@charset "UTF-8"
+
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: bold;
+}
+.logounad{
+	width: 60%;
+	padding: 5px 90px; /*Arriba abajo izq der*/
+
+}
+footer{
+	padding:100px 0;
+	text-align: center;
+}
+
+footer .logotipo-footer{
+	width: 10%;
+	margin-bottom: 20px;
+}
+
+footer p{
+	color
+}
+
+.iconos-redes-header{
+	width: 30px;
+	background-color: black;
+	filter: invert(100%);
+	margin: 5px 5px;
+	
+
+}
+
+.imgbanner{
+	
+	width: 50%;
+
+}
+
+h3{
+	text-align: center;
+}
+
+.fondobanner{
+	background-color: #47e1ae;
+	padding: 100px 0;
+}
+
+.espacio{
+	padding-top: 100px;
+
+}
+.altura-a-b{
+	padding: 100px 0;  /*arriba abajo izq der*/
+}
+
+.rectangulo {
+	 
+  background-color: white;
+  
+}
+
+.banner-video{
+	background-image: url("../img/videos/video-bg.jpg");
+	padding: 50px 0;
+	position: relative;
+	text-align: center;
+
+	
+}
+.fondo{
+	background: rgba(255,255,255,0.5);
+
+}
+
+.carousel-caption{
+	position: absolute;
+	top: 40%;
+	bottom: 20px;
+	left: 15%;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	text-align: left;
+}
+
+.btn-light{
+	color:#000;
+	background-color: transparent;
+	border-color: #f8f9fa;
+	border: 2px solid #000;
+	border-radius: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+
+
+

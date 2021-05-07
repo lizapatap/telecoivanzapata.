@@ -1,0 +1,287 @@
+<!DOCTYPE doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+            <meta content="width=device-width, initial-scale=1" name="viewport">
+                <!--Estilos Ivan-->
+                <link href="css/style.css" rel="stylesheet">
+                    <!-- Bootstrap CSS -->
+                    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" rel="stylesheet">
+                        <title>
+                            Ingeniería de las Telecomunicaciones
+
+                        </title>
+                    </link>
+                </link>
+            </meta>
+        </meta>
+        <link href="https://fonts.gstatic.com" rel="preconnect">
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500;1,700&display=swap" rel="stylesheet">
+            </link>
+        </link>
+    </head>
+    <body>
+        <!--CREACIÓN MENU BOOTSTRAP-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <!--COLOCO IR AL INDEX.HTML-->
+                    <!--COLOCO EL LOGO DE LA UNAD y creo una clase llamada logo-->
+                    <img alt="UNAD" class="logounad" src="img/logounad.png">
+                    </img>
+                </a>
+                <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="margin-right: 80px">
+                        <!--CAMBIO A me a ms-auto PARA ALINEAR DERECHA-->
+                        <li class="nav-item">
+                            <a aria-current="page" class="nav-link active" href="#carouselExampleDark">
+                                Inicio
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#temas">
+                                Temas
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="navbarDropdown" role="button">
+                                Recursos
+                            </a>
+                            <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#recurso1">
+                                        Cuestionarios
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="navbarDropdown2" role="button">
+                                Aprendizaje
+                            </a>
+                            <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#aprendizaje1">
+                                        Aprendizaje 1
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <img alt="Facebook" class="iconos-redes-header" src="img/svg/facebook-logo-button.svg">
+                                <img alt="Instagram" class="iconos-redes-header" src="img/svg/instagram-logo.svg">
+                                    <img alt="Twitter" class="iconos-redes-header" src="img/svg/twitter-logo-button.svg">
+                                    </img>
+                                </img>
+                            </img>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--CONTENEDOR QUE YA VIENE EN BOOTSTRAP. ESTE AYUDA A COLOCAR EL MENÚ-->
+        </nav>
+        <!--<form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Autor</button>
+        </form>-->
+        <!--AQUI COLOCO UN SLIDER-->
+        <div class="carousel carousel-dark slide" data-bs-ride="carousel" id="carouselExampleDark">
+            <div class="carousel-indicators">
+                <button aria-current="true" aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleDark" type="button">
+                </button>
+                <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleDark" type="button">
+                </button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img alt="Diseño de sitios web" class="d-block w-80" src="img/banner/iot.png">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>
+                                Fase 4 Implementar las soluciones de telecomunicaciones planteadas..
+                            </h5>
+                            <p>
+                                ¿Qué es IoT y verifique se hace parte de una red convergente?
+                            </p>
+                            <a class="btn btn-light" href="#1">
+                                Ir a página
+                            </a>
+                            <button class="btn btn-secondary" type="button">
+                                Secondary
+                            </button>
+                        </div>
+                    </img>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img alt="Sitios Web" class="d-block w-80" src="img/IOT4.png">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>
+                                IoT - Internet Of Things
+                            </h5>
+                            <p>
+                                IoT viene del inglés "Internet Of Things", es decir, "Internet de las cosas", pero ¿qué es exactamente? ¿por qué está tan de moda ahora? ¿qué aplicaciones tiene? ¿qué tecnologías hay disponibles?
+                            </p>
+                        </div>
+                    </img>
+                </div>
+            </div>
+            <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleDark" type="button">
+                <span aria-hidden="true" class="carousel-control-prev-icon">
+                </span>
+                <span class="visually-hidden">
+                    Previous
+                </span>
+            </button>
+            <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleDark" type="button">
+                <span aria-hidden="true" class="carousel-control-next-icon">
+                </span>
+                <span class="visually-hidden">
+                    Next
+                </span>
+            </button>
+        </div>
+        <!--AQUÍ COLOCO EL MAIN DEL SITIO-->
+        <main>
+            <section class="altura-a-b">
+                <!--AQUÍ COLOCO LA SECCION TEMAS DEL SITIO-->
+                <div class="container" id="temas">
+                    <div class="row text-center fondobanner">
+                        <h3>
+                            ¿Por qué está de moda el IoT? ¿Qué aplicaciones tiene? 
+                        </h3>
+                        <p>
+                            Internet ha evolucionado rápidamente y esto ha permitido que IoT sea ya una realidad y no sólo una visión de futuro. La fama de esta tecnología radica principalmente en todas las aplicaciones y posibilidades que nos proporciona tanto para mejorar tanto la vida cotidiana de las personas como los entornos empresariales, dónde ya se está implantando desde hace algún tiempo.
+                        </p>
+                        <div class="col-12 col-sm-3 text-center rectangulo">
+                            <h5>
+                                LA INTERNET DE LAS COSAS UNA BREVE RESEÑA
+                            </h5>
+                            <img alt="Banner FlexBox" class="imgbanner img-fluid" src="img/banner/banner1.png">
+                                <p>
+                                    Para entender mejor los problemas y desafíos de un mundo más conectado.
+                                </p>
+                            </img>
+                        </div>
+                        <div class="col-12 col-sm-3 text-center rectangulo">
+                            <h5>
+                                LA INTERNET DE LAS COSAS UNA BREVE RESEÑA
+                            </h5>
+                            <img alt="Banner FlexBox" class="imgbanner img-fluid" src="img/banner/banner2.png">
+                                <p>
+                                    Para entender mejor los problemas y desafíos de un mundo más conectado.
+                                </p>
+                            </img>
+                        </div>
+                        <div class="col-12 col-sm-3 text-center rectangulo">
+                            <h5>
+                                TECNOLOGÍAS INSTRUMENTALES
+                            </h5>
+                            <img alt="Banner FlexBox" class="imgbanner img-fluid" src="img/banner/banner3.png">
+                                <p>
+                                    El concepto de combinar computadoras, sensores y redes para monitorear y controlar diferentes dispositivos ha existido durante décadas. Sin embargo, la reciente confluencia de diferentes tendencias del mercado tecnológico está permitiendo que la Internet de las Cosas esté cada vez más cerca de ser una realidad generalizada. Estas tendencias incluyen la conectividad omnipresente, la adopción generalizada de redes basadas en el protocolo IP, la economía en la capacidad de cómputo, la miniaturización, los avances en el análisis de datos y el surgimiento de la computación en la nube
+.
+                                </p>
+                            </img>
+                        </div>
+                        <div class="col-12 col-sm-3 text-center rectangulo">
+                            <h5>
+                                TECNOLOGÍAS INSTRUMENTALES
+                            </h5>
+                            <img alt="Banner FlexBox" class="imgbanner img-fluid" src="img/banner/banner4.png">
+                                <p>
+                                    El concepto de combinar computadoras, sensores y redes para monitorear y controlar diferentes dispositivos ha existido durante décadas. Sin embargo, la reciente confluencia de diferentes tendencias del mercado tecnológico está permitiendo que la Internet de las Cosas esté cada vez más cerca de ser una.
+                                </p>
+                            </img>
+                        </div>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="banner-video altura-a-b">
+                <!--AQUÍ COLOCO LOS RECURSOS DEL SITIO-->
+                <div class="container espacio" id="recurso1">
+                    <h3>
+                        Recursos Digitales
+                    </h3>
+                    <p class="fondo">
+                        POTENCIAL DE TRANSFORMACIÓN.
+                    </p>
+                </div>
+                <div class="box">
+                    <img alt="Banner FlexBox" class="imgbanner img-fluid" src="img/IOT3.PNG">
+                </div>
+                <p>
+                    <br>
+                    </br>
+                    <br>
+                    </br>
+                </p>
+            </section>
+            <section class="altura-a-b">
+                <!--SECCION DE APRENDIZAJE-->
+                <div class="container text-center altura-a-b" id="aprendizaje1">
+                    <h3>
+                        SEGURIDAD
+                    </h3>
+                    <p class="fondo">
+                        Si bien en el contexto de la tecnología de la información las consideraciones de seguridad no son nuevas, los atributos de muchas implementaciones de la IoT presentan desafíos de seguridad nuevos y únicos. Hacer frente a estos desafíos y garantizar la seguridad en los productos y servicios de la IoT debe ser una prioridad fundamental. Los usuarios deben poder confiar en que los dispositivos de la IoT y los ervicios de datos relacionados serán seguros y estarán libres de vulnerabilidades, especialmente a medida que esta tecnología sea más difundida y se integre a nuestra vida diaria. Los dispositivos y servicios de la IoT poco seguros pueden servir como potenciales puntos de entrada de ataques cibernéticos y exponer los datos de los usuario al robo al dejar flujos de datos con una protección inadecuada. 
+
+                    </p>
+                    <div class="row">
+                        <div class="col-12 col-sm-4">
+                            <img alt="Aprendizaje1" class="img-fluid shadow-lg" src="img/iot5.png">
+                            </img>
+                            <p>
+                                La naturaleza interconectada de los dispositivos de la IoT significa que cada dispositivo mal asegurado conectado a Internet podría afectar la seguridad y la resistencia de Internet a nivel global. Este desafío se ve amplificado por otras consideraciones, como el despliegue a gran escala de dispositivos homogéneos, la capacidad de algunos dispositivos de conectarse automáticamente a otros y la posibilidad de que estos dispositivos sean desplegados en entornos no seguros.
+                                
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <img alt="Aprendizaje2" class="img-fluid shadow-lg" src="img/iot6.png">
+                            </img>
+                            <p>
+                                
+Por lo general, el término Internet de las Cosas se refiere a escenarios en los que la conectividad de red y la capacidad de cómputo se extienden a objetos, sensores y artículos de uso diario que habitualmente no se consideran computadoras, permitiendo que estos dispositivos generen, intercambien y consuman datos con una mínima intervención humana. Sin embargo, no existe ninguna definición única y universal..
+                            </p>
+                        
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <!--AQUI COLOCO EL PIE DE PÁGINA O FOOTER-->
+            <img alt="UNAD" class="logotipo-footer" src="img/logounad.png">
+                <br>
+                    <img alt="Facebook" class="iconos-redes-header" src="img/svg/facebook-logo-button.svg">
+                        <img alt="Instagram" class="iconos-redes-header" src="img/svg/instagram-logo.svg">
+                            <img alt="Twitter" class="iconos-redes-header" src="img/svg/twitter-logo-button.svg">
+                            </img>
+                        </img>
+                    </img>
+                </br>
+            </img>
+            <p>
+                Estudiante Luis Ivan Zapata Parada Curso: Telecomunicaciones Grupo: 301401 Código: 80731678
+            </p>
+        </footer>
+        <!-- Optional JavaScript; choose one of the two! -->
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script crossorigin="anonymous" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js">
+        </script>
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+    </body>
+</html>
